@@ -1,0 +1,25 @@
+/* main.css */
+
+/* Dark theme */
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Circular profile picture */
+#profile-pic {
+    border-radius: 50%; /* Make it circular */
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+}
+
+/* Style social links */
+#socials--list a {
+    color: #0077b5; /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+
+#socials--list a:hover {
+    color: #004471; /* Darker color on hover */
+}
